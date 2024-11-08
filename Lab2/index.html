@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <h2>Registration</h2>
+            <h3>Personal Details</h3>
+            <div class="form-row">
+                    <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" placeholder="Enter your name">
+                </div>
+                    <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob">
+                </div>
+                    <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" id="occupation" placeholder="Enter your occupation">
+                </div>
+            </div>
+            <h3>Identity Details</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="id-type">ID Type</label>
+                    <input type="text" id="id-type" placeholder="Enter ID type">
+                </div>
+                <div class="form-group">
+                    <label for="id-number">ID Number</label>
+                    <input type="text" id="id-number" placeholder="Enter ID number">
+                </div>
+                <div class="form-group">
+                    <label for="issued-authority">Issued Authority</label>
+                    <input type="text" id="issued-authority" placeholder="Enter issued authority">
+                </div>
+                <div class="form-group">
+                    <label for="issued-state">Issued State</label>
+                    <input type="text" id="issued-state" placeholder="Enter issued state">
+                </div>
+                <div class="form-group">
+                    <label for="issued-date">Issued Date</label>
+                    <input type="date" id="issued-date">
+                </div>
+                <div class="form-group">
+                    <label for="expiry-date">Expiry Date</label>
+                    <input type="date" id="expiry-date">
+                </div>
+            </div>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
