@@ -1,0 +1,32 @@
+{
+  "folders": [
+	{
+		"path": "../../../../Learn.c/fortest"
+	},
+	{
+		"path": "../../../../Learn.c/array.c"
+	},
+	{
+		"path": "../../../../term2"
+	},
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../Python Cys"
+	},
+	{
+		"path": "../../../../Learn.py/anbschool.py"
+	},
+	{
+		"path": "../../../../html"
+	},
+	{
+		"path": "../../../Team_web"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "html",
+    "cSpell.words": ["viruss"]
+  }
+}
